@@ -6,10 +6,14 @@ $ sudo apt update && sudo apt install packer
 ```
 
 Initialize
+```
 $ packer init aws-ami-nginx.pkr.hcl
-
+```
 Validate
+```
 $ packer validate aws-ami-nginx.pkr.hcl
-
+```
 Build image
+```
 $ packer build aws-ami-nginx.pkr.hcl
+```
